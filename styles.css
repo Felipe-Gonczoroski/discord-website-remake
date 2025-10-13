@@ -62,6 +62,11 @@ p {
   font-size: 1rem;
 }
 
+button {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
 button.light {
   width: 23.8rem;
   height: 3.25rem;
