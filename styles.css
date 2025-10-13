@@ -136,3 +136,14 @@ button.dark:hover {
   width: 379px;
   height: 252px;
 }
+
+.easy-find-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 29.5rem;
+  background-color: #f6f6f6;
+  padding: 2.5rem 1.5rem;
+}
