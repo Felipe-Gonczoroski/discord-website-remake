@@ -46,7 +46,9 @@ h2.highlight {
 }
 
 h2 {
+  max-width: 22rem;
   font-size: 1.5rem;
+  line-height: 1.85rem;
 }
 
 p {
@@ -116,4 +118,21 @@ button.dark:hover {
   width: 26.6rem;
   height: auto;
   padding: 0 1.5rem;
+}
+
+.control-space-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 35.8rem;
+  background-color: #ffffff;
+  margin-top: 2.25rem;
+  padding: 1.5rem;
+}
+
+.image-section {
+  width: 379px;
+  height: 252px;
 }
