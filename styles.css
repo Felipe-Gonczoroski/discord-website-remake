@@ -153,6 +153,15 @@ footer {
   padding: 0 1.5rem;
 }
 
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
 .control-space-section {
   display: flex;
   flex-direction: column;
@@ -163,6 +172,15 @@ footer {
   background-color: #ffffff;
   margin-top: 2.25rem;
   padding: 1.5rem;
+}
+
+.control-space-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
 }
 
 .image-section {
@@ -182,6 +200,15 @@ footer {
   padding: 2.5rem 1.5rem;
 }
 
+.easy-find-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+}
+
 .communities-section {
   display: flex;
   flex-direction: column;
@@ -192,6 +219,15 @@ footer {
   background-color: #ffffff;
   margin-top: 0.75rem;
   padding: 1.5rem;
+}
+
+.communities-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 22rem;
+  height: 100%;
 }
 
 .latency-conection-section {
@@ -208,4 +244,182 @@ footer {
 .logo-img {
   width: 162px;
   height: 45px;
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 17px;
+  }
+
+  h2 {
+    max-width: 16rem;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 2.4rem;
+  }
+
+  h2.highlight {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 2.1rem;
+  }
+
+  p {
+    max-width: 50.1rem;
+  }
+
+  section.hero-section h1 {
+    max-width: 16rem;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  section.hero-section p {
+    max-width: 48rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  footer {
+    width: 100%;
+    height: 9%;
+  }
+
+  button.light {
+    width: 12.8rem;
+    height: 2.75rem;
+    border: none;
+    border-radius: 1.75rem;
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: #23272a;
+    cursor: pointer;
+  }
+
+  button.dark {
+    width: 17.5rem;
+    height: 2.75rem;
+    border: none;
+    border-radius: 1.75rem;
+    font-size: 1rem;
+    background-color: #23272a;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .hero-section {
+    width: 100%;
+    height: 23rem;
+    background-image: url("assets/images/background.png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 2.75rem;
+  }
+
+  .hero-section-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 0 1.5rem;
+  }
+
+  .buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 0.45rem;
+    gap: 1.2rem;
+  }
+
+  .control-space-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 24.6rem;
+    background-color: #ffffff;
+    margin-top: 2.25rem;
+    padding: 1.5rem;
+    gap: 2.5rem;
+  }
+
+  .image-section {
+    width: 536px;
+    height: auto;
+  }
+
+  .control-space-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 21.75rem;
+    height: 100%;
+  }
+
+  .easy-find-section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 29.5rem;
+    background-color: #f6f6f6;
+    padding: 2.5rem 1.5rem;
+    gap: 0.2rem;
+  }
+
+  .easy-find-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 22rem;
+    height: 100%;
+  }
+
+  .communities-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 29.5rem;
+    background-color: #ffffff;
+    margin-top: 0.75rem;
+    padding: 1.5rem;
+    gap: 0.75rem;
+  }
+
+  .communities-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 22rem;
+    height: 100%;
+  }
+
+  .latency-conection-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 33.75rem;
+    background-color: #f6f6f6;
+    padding: 1.75rem 1.5rem;
+  }
+
+  .logo-img {
+    width: 236px;
+    height: auto;
+  }
 }
