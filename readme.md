@@ -34,6 +34,10 @@ All preview images are located in `assets/images/preview`.
 <p><strong>Mobile View</strong></p>
 <img src="assets/images/preview/home-mobile.png" alt="Home Mobile" width="200">
 
+## Preview
+
+https://felipe-gonczoroski.github.io/discord-website-recreation
+
 ## Conclusion
 
 This project was a great opportunity to strengthen knowledge in **HTML5**, **CSS3**, **Flexbox**, and **Media Queries**, while practicing the creation of **responsive and semantic layouts**. It is ideal for understanding how modern websites work and how to adapt them for multiple devices.
@@ -78,3 +82,13 @@ Todas as imagens de pré-visualização estão na pasta `assets/images/preview`.
 ## Considerações Finais
 
 Este projeto foi uma excelente oportunidade para reforçar conhecimentos em **HTML5**, **CSS3**, **Flexbox** e **Media Queries**, além de praticar a criação de **layouts responsivos e semânticos**. Ideal para compreender o funcionamento de sites modernos e como adaptá-los para diferentes dispositivos.
+
+## Pré-visualização
+
+https://felipe-gonczoroski.github.io/discord-website-recreation
+
+## Considerações Finais
+
+Este projeto foi uma excelente oportunidade para reforçar conhecimentos em **HTML5**, **CSS3**, **Flexbox** e **Media Queries**, além de praticar a criação de **layouts responsivos e semânticos**. Ideal para compreender o funcionamento de sites modernos e como adaptá-los para diferentes dispositivos.
+
+---
