@@ -246,6 +246,111 @@ footer {
   height: 45px;
 }
 
+@media screen and (min-width: 712px) {
+  html {
+    font-size: 17px;
+  }
+
+  h2 {
+    max-width: 25.75rem;
+    font-weight: 800;
+    font-size: 1.7rem;
+    line-height: 2rem;
+  }
+
+  h2.highlight {
+    max-width: 26rem;
+    font-size: 1.77rem;
+    line-height: 1.85rem;
+    text-align: center;
+  }
+
+  p {
+    max-width: 32rem;
+    text-align: center;
+  }
+
+  section.hero-section h1 {
+    max-width: 16rem;
+    font-size: 2.6rem;
+    line-height: 2.65rem;
+    text-align: center;
+  }
+
+  button.light {
+    width: 21.17rem;
+    height: 3.25rem;
+  }
+
+  button.dark {
+    width: 21.17rem;
+    height: 3.25rem;
+  }
+
+  footer {
+    height: 10%;
+  }
+
+  .hero-section {
+    height: 27.5rem;
+  }
+
+  .hero-section-content-container {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .control-space-section {
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+  }
+
+  .control-space-text-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .image-section {
+    width: 412px;
+    height: auto;
+  }
+
+  .easy-find-section {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .easy-find-text-container {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .communities-section {
+    justify-content: center;
+    align-items: center;
+    height: 32rem;
+    text-align: center;
+  }
+
+  .communities-text-container {
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+
+  .latency-conection-section {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo-img {
+    width: 184px;
+    height: auto;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   html {
     font-size: 17px;
