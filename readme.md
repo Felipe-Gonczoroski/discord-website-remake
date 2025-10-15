@@ -25,9 +25,14 @@ The project was developed for learning purposes, emphasizing key web development
 
 All preview images are located in `assets/images/preview`.
 
-![Home Desktop](assets/images/preview/home-desktop.png)
-![Home Tablet](assets/images/preview/home-tablet.png)
-![Home Mobile](assets/images/preview/home-mobile.png)
+<p><strong>Desktop View</strong></p>
+<img src="assets/images/preview/home-desktop.png" alt="Home Desktop" width="400">
+
+<p><strong>Tablet View</strong></p>
+<img src="assets/images/preview/home-tablet.png" alt="Home Tablet" width="300">
+
+<p><strong>Mobile View</strong></p>
+<img src="assets/images/preview/home-mobile.png" alt="Home Mobile" width="200">
 
 ## Conclusion
 
@@ -62,10 +67,14 @@ O projeto foi desenvolvido com fins de estudo, reforçando conceitos essenciais 
 
 Todas as imagens de pré-visualização estão na pasta `assets/images/preview`.
 
-![Home Desktop](assets/images/preview/home-desktop.png)
-![Home Tablet](assets/images/preview/home-tablet.png)
-![Home Mobile](assets/images/preview/home-mobile.png)
+<p><strong>Desktop View</strong></p>
+<img src="assets/images/preview/home-desktop.png" alt="Home Desktop" width="400">
 
+<p><strong>Tablet View</strong></p>
+<img src="assets/images/preview/home-tablet.png" alt="Home Tablet" width="300">
+
+<p><strong>Mobile View</strong></p>
+<img src="assets/images/preview/home-mobile.png" alt="Home Mobile" width="200">
 ## Considerações Finais
 
 Este projeto foi uma excelente oportunidade para reforçar conhecimentos em **HTML5**, **CSS3**, **Flexbox** e **Media Queries**, além de praticar a criação de **layouts responsivos e semânticos**. Ideal para compreender o funcionamento de sites modernos e como adaptá-los para diferentes dispositivos.
